@@ -8,7 +8,7 @@ defmodule Issues.CLI do
   in a github project
   """
 
-  def main (argv) do
+  def main(argv) do
     argv
     |> parse_args
     |> process
